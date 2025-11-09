@@ -20,7 +20,7 @@ An in depth analysis across different aspects of E-Commerce aiming to combat cou
 
 
 ### Data Source
-Product dataset: The primary dataset used for this analysis is "counterfeit products 22.csv" it contains detailed product information 
+Product dataset: The primary dataset used for this analysis is "counterfeit_products 22.csv" it contains detailed product information 
 
 ### Tools used 
  - Excel - for data cleaning
@@ -43,8 +43,10 @@ In the initial Data cleaning phase ,we Perfomed the following tasks:
 
 
 ### Data analysis
-``` revenue = [price] * [Purchases]
-```
+ - Calculated revenue by multipliying purchases and price
+ - Grouped warranty duration using Power BI data transform and conditional columns
+ - Grouped shipping time using transform and conditional columns to find accurate waiting times
+ - Group domain ages using conditional columns for an accurate analysis in finding years and product purchase relationships
 
 ### Findings
  - Tech corp was the dominant brand among counterfeit and non counterfeit products making a total of  $7 million dollars
